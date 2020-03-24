@@ -20,32 +20,32 @@ en:
   activerecord:
     attributes:
       user:
-        accepted_terms: "Terms and Conditions"
-        email: Email
-        name: Name
-        password: Password
-        password_confirmation: Password Confirmation
+        accepted_terms: "Terma dan Syarat"
+        email: Emel
+        name: Nama
+        password: Kata laluan
+        password_confirmation: Konfirmasi kata laluan
     errors:
       models:
         user:
-          confirmation: doesn't match Password
+          confirmation: tidak sepadan dengan kata laluan
   administrator:
     site_settings:
       authentication:
-        disabled: Disabled
-        enabled: Enabled
-        info: Only allow authenticated users to join a room
-        title: Require Authentication for Rooms
-        user-info: You must sign in to Kelas SuhufMuslim to join this room
+        disabled: Tidak aktif
+        enabled: Aktif
+        info: Benarkan hanya pengguna yang berdaftar untuk memasuki bilik
+        title: Memerlukan pengesahan untuk bilik
+        user-info: Anda mesti log masuk untuk menyertai bilik ini
       branding:
-        change: Change Image
-        info: Change the branding image that appears in the top left corner
-        placeholder: Image Url...
-        title: Branding Image
+        change: Tukar imej
+        info: Tukar imej penjenamaan yang muncul di sudut kiri atas
+        placeholder: Url imej...
+        title: Imej Penjenamaan
       cache:
-        info: Clears the stored provider cache which forces a new request for the updated info
-        title: Clear Provider Cache
-        button: Clear Cache
+        info: Bersihkan cache yang memerlukan permintaan baru untuk info yang dikemas kini
+        title: Bersihkan Cache
+        button: Bersihkan Cache
       clear_auth:
         info: Clears the current authenticator for users allowing them to sign back in using a different authentication method
         title: Clear Current Authenticator
@@ -174,7 +174,7 @@ en:
   delete: Delete
   delivery_error: An error occured during email delivery. Please contact an administrator!
   docs: Documentation
-  email: Email
+  email: Emel
   email_sent: Your %{email_type} email has been sent! (Please check your Spam folder if you haven't received it)
   enter_your_name: Enter your name!
   errors:
@@ -229,7 +229,7 @@ en:
     designs: Custom Designs
     authentication: User Authentication
   footer:
-    powered_by: Powered by %{href}.
+    powered_by: Dikuasakan oleh %{href}.
   forgot_password:
     subtitle: Forgot Password
     email: Email
@@ -259,15 +259,15 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your Kelas SuhufMuslim open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to Kelas SuhufMuslim.
-    video: Watch our tutorial on using Kelas SuhufMuslim
+    about: "%{href} ialah sistem kelas maya membolehkan anda belajar secara online dimana sahaja. Sila log masuk untuk melihat kelas yang sedang berlangsung."
+    welcome: Selamat Datang ke kelas SuhufMuslim.
+    video: Lihat tutorial untuk menggunakan kelas ini
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Kelas SuhufMuslim, but your database isn't compatible.
   language_default: Default (browser language)
   ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
-  login: Sign in
-  login_title: Sign in to your account
+  login: Login
+  login_title: Login ke akaun anda
   mailer:
     user:
       approve:
@@ -398,7 +398,7 @@ en:
       prev: "&lsaquo; Prev"
       next: "Next &rsaquo;"
       gap: "&hellip;"
-  password: Password
+  password: Kata laluan
   password_empty_notice: Password cannot be empty.
   password_reset_success: Password has been reset.
   password_different_notice: Password Confirmation does not match.
@@ -534,10 +534,10 @@ en:
     title: Profile
     search: Search
   signup:
-    password_confirm: Password Confirmation
-    subtitle: Create an Account
-    title: Sign up
-    with: Sign up with %{provider}
+    password_confirm: Konfirmasi kata laluan
+    subtitle: Daftar akaun anda
+    title: Daftar
+    with: Daftar dengan %{provider}
   terms:
     accept: I accept the %{href}
     accept_existing: I accept the terms and conditions
